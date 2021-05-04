@@ -1,4 +1,4 @@
-# gdump
+#G-DUMP
 Dump your Xbox game disks to usb
 
 `To make work on retail you must remove the run full trust capability`
