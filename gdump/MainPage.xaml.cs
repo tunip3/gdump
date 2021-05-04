@@ -142,7 +142,8 @@ namespace gdump
 
 
 
-        //thanks to jerome s for this short method
+        //initially based off the following post but fundamentally reworked in order to work with my custom pinvoke filesystem nonsense (needed to see hidden files amongst other things)
+        //https://stackoverflow.com/a/27797685
         public static async Task CopyFolderAsync(List<MonitoredFolderItem> source, StorageFolder destinationContainer, string desiredName = null)
         {
             string name = System.IO.Path.GetFileName(source[0].ParentFolderPath);
