@@ -1,5 +1,7 @@
-#G-DUMP
+# G-DUMP
 Dump your Xbox game disks to usb
+
+Games are still encrypted so it's not really useful for anything except preservation.
 
 `To make work on retail you must remove the run full trust capability`
 
